@@ -1,0 +1,10 @@
+class CfgSounds
+{
+	sounds[] = {};
+	class Moby
+	{
+		name = "Moby";
+		sound[] = {"song\flower.ogg", 0.8, 1, 100};
+		titles[] = {0,""};
+	};
+};
