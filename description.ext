@@ -190,3 +190,14 @@ class CfgSounds
 		titles[] = {0,""};
 	};
 };
+
+class CfgMusic
+{
+	tracks[]={};
+
+	class NoSunshine
+	{
+		name = "NoSunshine";
+		sound[] = {"\song\aintnosunshine.ogg", db+10, 1.0};
+	};
+};

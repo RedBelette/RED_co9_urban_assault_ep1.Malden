@@ -1,5 +1,3 @@
-titleCut [" ", "BLACK", 0];
-
 [] execVM "setupIA.sqf";
 
 // Wait until player loaded
