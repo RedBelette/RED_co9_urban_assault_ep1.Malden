@@ -67,6 +67,8 @@ camera camSetPos getPos(camseq3);
 camera camSetTarget camseq3_1;
 camera camCommit 0;
 
+sleep 2;
+
 // Black in
 titleCut [" ", "BLACK IN", 2];
 waitUntil {camCommitted camera};

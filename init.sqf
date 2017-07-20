@@ -60,4 +60,9 @@ titleCut [" ", "BLACK IN", 3];
 
 // ====================================================================================
 f_var_viewDistance_default = 4500;
+f_var_viewDistance_tank = 2000;
+f_var_viewDistance_car = 2000;
+f_var_viewDistance_rotaryWing = 2500;
+f_var_viewDistance_fixedWing = 5000;
+f_var_viewDistance_crewOnly = true;
 [] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
