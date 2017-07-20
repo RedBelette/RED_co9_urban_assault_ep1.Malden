@@ -9,7 +9,7 @@ playMusic "NoSunshine";
 // load sequence 1
 seq1 = true;
 // push to all clients and server
-publicVariable "seq1";
+publicVariableServer "seq1";
 
 sleep 3;
 
@@ -34,7 +34,7 @@ sleep 2;
 // load sequence 2
 seq2 = true;
 // push to all clients and server
-publicVariable "seq2";
+publicVariableServer "seq2";
 
 // PREPARE SEQ2
 camera camSetPos getPos(camseq2_1);
@@ -60,7 +60,7 @@ sleep 2;
 // load sequence 3
 seq3 = true;
 // push to all clients and server
-publicVariable "seq3";
+publicVariableServer "seq3";
 
 // PREPARE SEQ3
 camera camSetPos getPos(camseq3);
@@ -84,7 +84,7 @@ titleCut [" ", "BLACK OUT", 2];
 // load sequence 4
 seq4 = true;
 // push to all clients and server
-publicVariable "seq4";
+publicVariableServer "seq4";
 
 sleep 2;
 
@@ -128,7 +128,7 @@ titleCut [" ", "BLACK OUT", 2];
 // load sequence 5
 seq5 = true;
 // push to all clients and server
-publicVariable "seq5";
+publicVariableServer "seq5";
 
 sleep 2;
 
@@ -160,7 +160,7 @@ titleCut [" ", "BLACK OUT", 2];
 // load sequence 6
 seq6 = true;
 // push to all clients and server
-publicVariable "seq6";
+publicVariableServer "seq6";
 
 sleep 2;
 
