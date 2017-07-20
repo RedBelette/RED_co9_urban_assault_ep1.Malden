@@ -11,6 +11,7 @@ startMission = true;
 
 // execute intro
 _handle = execVM "cutscene\intro.sqf";
+execVM "cutscene\introtext.sqf";
 
 // Waiting end intro
 waitUntil {scriptDone _handle};
@@ -23,6 +24,9 @@ waitUntil {scriptDone _handle};
 
 // Display infos message
 _handle = [parseText format [ "<t align='center' size='2'>%1</t>", toUpper "2 HEURES PLUS TARD"], [0,0,1,1], [10,1], 3, 0.7, 0] spawn BIS_fnc_textTiles;
+
+// skip 2 hours
+skipTime 2;
 
 // Waiting info message
 waitUntil {scriptDone _handle};

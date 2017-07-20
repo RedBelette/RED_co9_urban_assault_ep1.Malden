@@ -158,7 +158,7 @@ waitUntil {camCommitted camera};
 titleCut [" ", "BLACK OUT", 2];
 
 // load sequence 6
-seq5 = true;
+seq6 = true;
 // push to all clients and server
 publicVariable "seq6";
 
