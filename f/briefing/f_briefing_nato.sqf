@@ -39,6 +39,9 @@ Enfin, remercions Sajkheirn pour nous avoir donner des explications sur la compo
 <br/>
 Bon, encore un dernier, merci monsieur H d'apprécier le briefing à ce point !
 <br/><br/>
+<img image='media\img\decollage.jpg' width='300' height='200'/>
+<br/><br/>
+<br/><br/>
 Made with F3 (http://www.ferstaberinde.com/f3/en/)
 "]];
 
@@ -61,7 +64,7 @@ _exe = player createDiaryRecord ["diary", ["Execution","
 <br/>
 <font size='18'>COMMANDER'S INTENT</font>
 <br/>
-Procéder à une approche tactique avec l'équipe 300 et laissez 600 en couverture. Choisissez méticuleusement vos angles d'attaques. Charger 600 avec l'arme anti aérienne et guetter le moindre mouvement de l’hélicoptère de combat. A la moindre détection, nous savons qu'ils déploiement leurs forces partout dans le secteur. Nous devons nous préparer à un affrontement brutal. Particulièrement si l'hélicoptère décolle. Dans ce cas, l'équipe 600, bien positionné sera votre seul chance de survie.
+Procéder à une approche tactique avec l'équipe 300 et laissez 600 en couverture. Choisissez méticuleusement vos angles d'attaques. Charger 600 avec l'arme anti aérienne et guetter le moindre mouvement de l’hélicoptère de combat. A la moindre détection, nous savons qu'ils déploieront leurs forces partout dans le secteur. Nous devons nous préparer à un affrontement brutal. Particulièrement si l'hélicoptère décolle. Dans ce cas, l'équipe 600, bien positionné sera votre seul chance de survie.
 <br/>
 
 <br/>
@@ -88,16 +91,31 @@ Ce n'est pas dans nos habitudes, mais nous pouvons mettre la main sur un fonctio
 _mis = player createDiaryRecord ["diary", ["Mission","
 <br/>
 Votre mission principal est de prendre d'assaut la base militaire (AP1) pour y détruire l'hélicoptère d'assaut mais également de saboter le centre de communication (AP2) situer non loin de là.
+<br/><br/>
+<img image='media\img\kajman.jpg' width='300' height='200'/>
+<br/><br/>
+<br/><br/>
+<img image='media\img\ap1.jpg' width='300' height='200'/>
+<br/><br/>
 <br/>
 
 <br/>
 Vous avez également deux missions connexe:
 <br/>
 1) Il vous ait demandé de retrouver un hélicoptère allié qui s'est craché dans la zone. Vous le trouverez probablement dans la zone Alpha. Vous ne devriez pas rencontrer de résistance particulière. Une fois retrouvé, installer lui une balise pour permettre à une autre équipe de venir le récupérer.
+<br/><br/>
+<img image='media\img\alpha.jpg' width='300' height='200'/>
+<br/><br/>
 <br/>
 
 <br/>
-2) Prenez contact avec un fonctionnaire de l'aéroport. Vous pouvez soit l'embarquer (serflex obligatoire), soit nous confirmer sa présence en le laissant sur place. Dans le deuxième cas, une autre équipe sur place viendra le récupérer.
+2) Prenez contact avec un fonctionnaire de l'aéroport. Vous pouvez soit l'embarquer (serflex obligatoire), soit nous confirmer sa présence et le laisser sur place, une équipe spécialiser viendra le récupérer.
+<br/><br/>
+<img image='media\img\aéroport.jpg' width='300' height='200'/>
+<br/><br/>
+<br/><br/>
+<img image='media\img\bureau.jpg' width='300' height='200'/>
+<br/><br/>
 "]];
 
 // ====================================================================================
@@ -107,11 +125,20 @@ Vous avez également deux missions connexe:
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-Le CSAT détient la partie nord de maldem où se trouve l'aéroport principal de l'île. Il s'agit de la plus grande source de financement légale du secteur. Si nous voulons reprendre le contrôle de Maldem, nous ne pouvons pas laisser notre ennemi prospérer.
+Le CSAT détient la partie nord de Maldem où se trouve l'aéroport principal de l'île. Il s'agit de la plus grande source de financement légale du secteur. Si nous voulons reprendre le contrôle de Maldem, nous ne pouvons pas laisser notre ennemi prospérer.
 <br/><br/>
 <font size='18'>ENEMY FORCES</font>
 <br/>
 L'aéroport est protéger par la caserne militaire situé à proximité, nous supposons qu'ils déploieront leurs forces sur tout le secteur à la moindre mise en alerte. Nos informateur remonte la présence d'un hélicoptère de combat lourdement armée, il s'agit de la menace la plus sérieuse sur le terrain, nous devrions le détruire avant qu'il ne décolle.
+<br/><br/>
+<img image='media\img\ap2véhicules1.jpg' width='300' height='200'/>
+<br/><br/>
+<br/><br/>
+<img image='media\img\ap2véhicule2.jpg' width='300' height='200'/>
+<br/><br/>
+<br/><br/>
+<img image='media\img\kajman.jpg' width='300' height='200'/>
+<br/><br/>
 <br/><br/>
 <font size='18'>FRIENDLY FORCES</font>
 <br/>
