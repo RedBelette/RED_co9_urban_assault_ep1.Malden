@@ -125,7 +125,7 @@ Vous avez également deux missions connexe:
 
 _sit = player createDiaryRecord ["diary", ["Situation","
 <br/>
-Le CSAT détient la partie nord de Maldem où se trouve l'aéroport principal de l'île. Il s'agit de la plus grande source de financement légale du secteur. Si nous voulons reprendre le contrôle de Maldem, nous ne pouvons pas laisser notre ennemi prospérer.
+Le CSAT détient la partie nord de Malden où se trouve l'aéroport principal de l'île. Il s'agit de la plus grande source de financement légale du secteur. Si nous voulons reprendre le contrôle de Malden, nous ne pouvons pas laisser notre ennemi prospérer.
 <br/><br/>
 <font size='18'>ENEMY FORCES</font>
 <br/>
