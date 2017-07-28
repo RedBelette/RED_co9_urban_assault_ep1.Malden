@@ -1,2 +1,4 @@
-(_this select 0) switchMove "Acts_carFixingWheel";
-(_this select 0) disableAI "ANIM";
+if (isServer) then {
+	[(_this select 0),"Acts_carFixingWheel" ] remoteExec ["switchMove"] ;
+	(_this select 0) disableAI "ANIM";
+};
