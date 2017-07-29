@@ -5,6 +5,8 @@ f_var_viewDistance_default = 8000;
 
 playMusic "NoSunshine";
 
+loadingCutscene = true;
+
 // -->
 // load sequence 1
 seq1 = true;
@@ -251,7 +253,9 @@ sleep 2;
 f_var_viewDistance_default = 4500;
 [] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
 
+hideCutscene = true;
 playMusic "";
+
 
 camDestroy camera;
 player cameraEffect ["terminate","back"];
