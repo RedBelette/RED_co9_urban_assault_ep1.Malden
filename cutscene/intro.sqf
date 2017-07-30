@@ -6,6 +6,7 @@ f_var_viewDistance_default = 8000;
 playMusic "NoSunshine";
 
 loadingCutscene = true;
+publicVariableServer "loadingCutscene";
 
 // -->
 // load sequence 1
@@ -254,6 +255,7 @@ f_var_viewDistance_default = 4500;
 [] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
 
 hideCutscene = true;
+publicVariableServer "hideCutscene";
 playMusic "";
 
 

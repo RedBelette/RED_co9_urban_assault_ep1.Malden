@@ -1,1 +1,1 @@
-baseRadio say3D "Moby";
+[baseRadio,"Moby" ] remoteExec ["say3D"] ;
