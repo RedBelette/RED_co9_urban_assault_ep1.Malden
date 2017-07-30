@@ -1,12 +1,12 @@
 if (!hasInterface) exitWith {}; //Exit if not a player.
 
+loadingCutscene = true;
+publicVariableServer "loadingCutscene";
+
 f_var_viewDistance_default = 8000;
 [] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
 
 playMusic "NoSunshine";
-
-loadingCutscene = true;
-publicVariableServer "loadingCutscene";
 
 // -->
 // load sequence 1
@@ -250,14 +250,13 @@ waitUntil {camCommitted camera};
 // Black out
 titleCut [" ", "BLACK OUT", 2];
 sleep 2;
+hideCutscene = true;
+publicVariableServer "hideCutscene";
 
 f_var_viewDistance_default = 4500;
 [] execVM "f\dynamicViewDistance\f_setViewDistanceLoop.sqf";
 
-hideCutscene = true;
-publicVariableServer "hideCutscene";
 playMusic "";
-
 
 camDestroy camera;
 player cameraEffect ["terminate","back"];

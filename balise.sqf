@@ -1,13 +1,12 @@
-_actionid = _this select 2;
-_helico = _this select 0;
-hint 'coucou';
-[20,
+actionid = _this select 2;
+helico = _this select 0;
+[120,
 [],
 {
 	_this execVM "baliseok.sqf";
 
-	_helico removeAction _actionid;
+	helico removeAction actionid;
 },
 {hint "Installation annulé!"},
-"Installation d'une balise, 2 minutes d'attente."
+"Installation de la balise, 2 minutes d'attente."
 ] call ace_common_fnc_progressBar;
